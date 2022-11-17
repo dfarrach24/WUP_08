@@ -84,3 +84,13 @@ abline(simp6)
 summary.lm(simp6)
 ```
 The Adjusted R-squared of the SEX variable  is -0.008373 which is too small to consider. 
+
+
+
+```{r}
+simp7 <- lm(LENGTH~as.numeric(MONTH),data=bears)
+plot(LENGTH~as.numeric(MONTH),data=bears)
+abline(simp7)
+summary.lm(simp7)
+```
+the Adjusted R-squared for the MONTH variable is  -0.01153  compared to model "NECK" which is too small to consider. 
