@@ -93,7 +93,7 @@ plot(LENGTH~as.numeric(MONTH),data=bears)
 abline(simp7)
 summary.lm(simp7)
 ```
-the Adjusted R-squared for the MONTH variable is  -0.01153  compared to model "NECK" which is too small to consider. 
+The Adjusted R-squared for the MONTH variable is  -0.01153  compared to model "NECK" which is too small to consider. 
 
 
 
