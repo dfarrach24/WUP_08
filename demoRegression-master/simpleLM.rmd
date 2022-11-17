@@ -75,3 +75,12 @@ abline(simp5)
 summary.lm(simp5)
 ```
 The Adjusted R-squared of HEADLEN is  0.8434 higher than the model "neck" variable. 
+
+
+```{r}
+simp6 <- lm(LENGTH~as.numeric(SEX),data=bears)
+plot(LENGTH~as.numeric(SEX),data=bears)
+abline(simp6)
+summary.lm(simp6)
+```
+The Adjusted R-squared of the SEX variable  is -0.008373 which is too small to consider. 
