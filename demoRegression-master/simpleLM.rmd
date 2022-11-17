@@ -65,4 +65,13 @@ abline(simp4)
 summary.lm(simp4)
 ```
 
-The Adjusted R-squared of the chest variable is 0.7869 which is larger than the model "neck" varaiable. 
+The Adjusted R-squared of the chest variable is 0.7869 which is larger than the model "neck" variable. 
+
+
+```{r}
+simp5 <- lm(LENGTH~HEADLEN,data=bears)
+plot(LENGTH~HEADLEN,data=bears)
+abline(simp5)
+summary.lm(simp5)
+```
+The Adjusted R-squared of HEADLEN is  0.8434 higher than the model "neck" variable. 
