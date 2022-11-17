@@ -94,3 +94,15 @@ abline(simp7)
 summary.lm(simp7)
 ```
 the Adjusted R-squared for the MONTH variable is  -0.01153  compared to model "NECK" which is too small to consider. 
+
+
+
+```{r}
+simp8 <- lm(LENGTH~as.numeric(AGE),data=bears)
+plot(LENGTH~as.numeric(AGE),data=bears)
+abline(simp8)
+summary.lm(simp8)
+```
+
+
+The Adjusted R-squared variable of AGE is  0.5073  which is significant but not loger than the model " NECK". 
