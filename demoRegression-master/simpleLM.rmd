@@ -106,3 +106,11 @@ summary.lm(simp8)
 
 
 The Adjusted R-squared variable of AGE is  0.5073  which is significant but not loger than the model " NECK". 
+
+
+
+
+
+### Conclusion
+
+Based on Dr. K Model LENGTH ~ NECK  the r-squared variable is 0.7476. After completing several simple regression models it is determined that the r-squared value of  "HEADLEN" is .8434 larger than Dr.K's example tested for bear length.   
